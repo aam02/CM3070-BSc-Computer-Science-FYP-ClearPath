@@ -1,0 +1,29 @@
+{
+  "model": "/Users/main/Desktop/FYP/artifacts/models/lambdamart_split_b_v4.txt",
+  "features": [
+    "cf_score",
+    "global_pop",
+    "log_global_pop",
+    "week_position",
+    "abs_week_distance",
+    "engagement_band",
+    "type_match",
+    "item_duration_proxy",
+    "activity_resource",
+    "activity_oucontent",
+    "activity_forumng",
+    "activity_quiz",
+    "activity_url",
+    "activity_subpage",
+    "activity_glossary",
+    "activity_oucollaborate",
+    "activity_other",
+    "module_BBB",
+    "module_DDD",
+    "module_FFF",
+    "cf_score_user_norm"
+  ],
+  "expected_value": -1.3256134383341807,
+  "n_rows": 175680,
+  "max_additivity_error": 1.8207657603852567e-14
+}

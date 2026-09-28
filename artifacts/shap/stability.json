@@ -1,0 +1,70 @@
+{
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "mean_off_diagonal_spearman": 0.9698701298701298,
+  "matrix": [
+    [
+      1.0,
+      0.9675324675324675,
+      0.9636363636363635,
+      0.9792207792207792,
+      0.9805194805194805
+    ],
+    [
+      0.9675324675324675,
+      1.0,
+      0.9779220779220777,
+      0.9870129870129869,
+      0.9571428571428571
+    ],
+    [
+      0.9636363636363635,
+      0.9779220779220777,
+      1.0,
+      0.9662337662337662,
+      0.9688311688311689
+    ],
+    [
+      0.9792207792207792,
+      0.9870129870129869,
+      0.9662337662337662,
+      1.0,
+      0.9506493506493506
+    ],
+    [
+      0.9805194805194805,
+      0.9571428571428571,
+      0.9688311688311689,
+      0.9506493506493506,
+      1.0
+    ]
+  ],
+  "features": [
+    "cf_score",
+    "global_pop",
+    "log_global_pop",
+    "week_position",
+    "abs_week_distance",
+    "engagement_band",
+    "type_match",
+    "item_duration_proxy",
+    "activity_resource",
+    "activity_oucontent",
+    "activity_forumng",
+    "activity_quiz",
+    "activity_url",
+    "activity_subpage",
+    "activity_glossary",
+    "activity_oucollaborate",
+    "activity_other",
+    "module_BBB",
+    "module_DDD",
+    "module_FFF",
+    "cf_score_user_norm"
+  ]
+}

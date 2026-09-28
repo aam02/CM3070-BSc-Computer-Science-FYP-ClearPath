@@ -1,0 +1,42 @@
+{
+  "variant": "v4",
+  "split": "split_b",
+  "features": [
+    "cf_score",
+    "global_pop",
+    "log_global_pop",
+    "week_position",
+    "abs_week_distance",
+    "engagement_band",
+    "type_match",
+    "item_duration_proxy",
+    "activity_resource",
+    "activity_oucontent",
+    "activity_forumng",
+    "activity_quiz",
+    "activity_url",
+    "activity_subpage",
+    "activity_glossary",
+    "activity_oucollaborate",
+    "activity_other",
+    "module_BBB",
+    "module_DDD",
+    "module_FFF",
+    "cf_score_user_norm"
+  ],
+  "best_params": {
+    "num_leaves": 63,
+    "learning_rate": 0.05,
+    "min_data_in_leaf": 80
+  },
+  "best_seed": 1,
+  "val_ndcg_by_seed": {
+    "0": 0.6090990002789537,
+    "1": 0.6126633224258583,
+    "2": 0.6109031734813843,
+    "3": 0.6111974822653586,
+    "4": 0.6089744175180449
+  },
+  "best_val_ndcg": 0.6126633224258583,
+  "best_iteration": 300
+}

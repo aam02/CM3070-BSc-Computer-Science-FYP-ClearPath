@@ -1,0 +1,39 @@
+# Regenerable data (download / pipeline)
+data/raw/
+data/processed/
+
+# Large run outputs
+artifacts/*.log
+artifacts/shap/*.parquet
+
+# Built archives
+ClearPath_submission.zip
+*.zip
+
+# Local / editor clutter
+_extras/
+report/
+.cursor/
+.pytest_cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# OS / junk
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
