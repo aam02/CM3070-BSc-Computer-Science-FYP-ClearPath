@@ -60,27 +60,4 @@ Pick a course and student in the demo UI, compare ClearPath vs Most popular, the
 
 Modules BBB/DDD/FFF x presentations 2013B/2013J/2014B/2014J. Offline evaluation only; no user study.
 
-## Submission packaging
-
-`data/raw/` and most of `data/processed/` are regenerable. The submission zip is **code + demo artefacts only**.
-
-```bash
-./scripts/package_submission.sh
-# -> ClearPath_submission.zip
-```
-
-Included: `clearpath/`, `scripts/run.sh`, `scripts/download_oulad.py`, `tests/`, `requirements.txt`, `README.md`, models, metrics, figures, SHAP cache, demo rankings.
-
-Excluded: raw/processed data dumps, logs, local notes.
-
-Marker setup after unzip:
-
-```bash
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-# optional full rebuild from OULAD:
-# python scripts/download_oulad.py && ./scripts/run.sh python -m clearpath.data_prep ...
-./scripts/run.sh python -m clearpath.app
-```
-
-`requirements.txt` uses pinned versions. On macOS install `libomp` before LightGBM.
+cOS install `libomp` before LightGBM.
